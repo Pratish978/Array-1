@@ -1,6 +1,5 @@
 //Time complexity:-O(Logn)
 
-import java.util.*;
 
 public class BinarySearch {
 
@@ -29,18 +28,3 @@ public class BinarySearch {
     }
 }
 
-
-//Time complexity :-
-
-/*
-Iteration 1:-n      n/2 power 0
-Iteration 2:-n/2    n/2 power 1
-Iteration 3:-n/4    n/2 power 2
-Iteration 4:-n/8    n/2 power 3
-          .
-          .
-          .
-          .
-Iteration nth:-n/n  n/2 power k=1 . n=2 powerK  
-                    k=log n
-*/
